@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+section{
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+
+.carousel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0,-50%);
+    user-select: none;
+    transition: all 0.2s ease;
+}
+
+.carousel-container img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% center;
+    box-shadow: 5px 5px 20px 2px rgb(84, 82, 82);
+    transition: all 0.2s ease;
+}
