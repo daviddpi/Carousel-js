@@ -43,7 +43,6 @@ window.onload = () =>{
     window.addEventListener("mouseup", function(e){
         firstX = 0;
         pressed = false;
-    
     })
     
 }
